@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 40px;
+}
+
+.listas-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.lista {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.lista h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #333;
+}
+
+.lista ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lista li {
+  margin: 8px 0;
+  color: #555;
+}
